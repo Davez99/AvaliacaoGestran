@@ -12,5 +12,6 @@ namespace GestranAPI.Entities
         public int CNPJ { get; set; }
         public int Telefone { get; set; }
         public string Email { get; set; }
+        public Endereco Endereco { get; set; }
     }
 }
