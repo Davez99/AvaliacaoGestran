@@ -1,6 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using GestranAPI.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<ContextGestran>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoDEV")));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
