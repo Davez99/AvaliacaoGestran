@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using GestranAPI.Context;
+using GestranAPI.Entities;
 
 namespace GestranAPI.Controllers
 {
@@ -15,6 +16,15 @@ namespace GestranAPI.Controllers
         public FornecedoresController(ContextGestran context)
         {
             _context = context;
+        }
+
+        [HttpPost]
+        public IActionResult Cadastrar(Fornecedor fornecedor){
+
+            _context.Add(fornecedor);
+            _context.SaveChanges();
+
+            return Ok(fornecedor);
         }
     }
 }

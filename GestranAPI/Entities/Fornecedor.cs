@@ -9,8 +9,8 @@ namespace GestranAPI.Entities
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public int CNPJ { get; set; }
-        public int Telefone { get; set; }
+        public Int64 CNPJ { get; set; }
+        public Int32 Telefone { get; set; }
         public string Email { get; set; }
         public Endereco Endereco { get; set; }
     }
