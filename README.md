@@ -2,11 +2,11 @@
 
 ##tecnologias
 
-.NET 7 \n
-EF core
-WEBAPI
-C#
-JSON
+.NET 7;
+EF core;
+WEBAPI;
+C#;
+JSON;
 
 ##Dicas
 
