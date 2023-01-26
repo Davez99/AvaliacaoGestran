@@ -2,7 +2,7 @@
 
 ##tecnologias
 
-.NET 7
+.NET 7 \n
 EF core
 WEBAPI
 C#
