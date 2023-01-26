@@ -14,6 +14,6 @@ Para realizar o teste que integre com o BD, é necessário alterar o arquivo "ap
 
 E após isso deve certificar que alguns comandos no terminal tenham sido feitos, como:
 
-dotnet tool install --global dotnet-ef
-dotnet-ef migrations add <<nome da migration>>
-dotnet-ef database update
+*dotnet tool install --global dotnet-ef
+*dotnet-ef migrations add <<nome da migration>>
+*dotnet-ef database update
