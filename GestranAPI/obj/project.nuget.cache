@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RcROfNs1fRqGAWh8Iy2JJJjWK47zbSeAjLX/+8+NbOa4jo7uK3yUwsXan5tKoGTCJwxsVMjATuDh2Ez/j6pYUA==",
+  "dgSpecHash": "6YxQpvxrVkXc/JsbnVvt7kKvEUx8E8iNbsxi4SaPyhrvI+1RXGgk313lp8r9vSQvlyzS8ThMKO1eh0ersa+3/Q==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\AvaliacaoGestran\\AvaliacaoGestran\\GestranAPI\\GestranAPI.csproj",
+  "projectFilePath": "C:\\Workspace\\AV\\AvaliacaoGestran\\GestranAPI\\GestranAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Davez\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Davez\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

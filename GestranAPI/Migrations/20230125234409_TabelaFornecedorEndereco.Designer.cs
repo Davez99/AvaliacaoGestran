@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GestranAPI.Migrations
 {
     [DbContext(typeof(ContextGestran))]
-    [Migration("20230125222741_TabelasFornecedoresEnderecos")]
-    partial class TabelasFornecedoresEnderecos
+    [Migration("20230125234409_TabelaFornecedorEndereco")]
+    partial class TabelaFornecedorEndereco
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -67,8 +67,8 @@ namespace GestranAPI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CNPJ")
-                        .HasColumnType("int");
+                    b.Property<long>("CNPJ")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");

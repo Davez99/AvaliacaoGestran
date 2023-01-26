@@ -5,7 +5,7 @@
 namespace GestranAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class TabelasFornecedoresEnderecos : Migration
+    public partial class TabelaFornecedorEndereco : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -36,7 +36,7 @@ namespace GestranAPI.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CNPJ = table.Column<int>(type: "int", nullable: false),
+                    CNPJ = table.Column<long>(type: "bigint", nullable: false),
                     Telefone = table.Column<int>(type: "int", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     EnderecoId = table.Column<int>(type: "int", nullable: true)

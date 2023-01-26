@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\AvaliacaoGestran\\AvaliacaoGestran\\GestranAPI\\GestranAPI.csproj": {}
+    "C:\\Workspace\\AV\\AvaliacaoGestran\\GestranAPI\\GestranAPI.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\AvaliacaoGestran\\AvaliacaoGestran\\GestranAPI\\GestranAPI.csproj": {
+    "C:\\Workspace\\AV\\AvaliacaoGestran\\GestranAPI\\GestranAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\AvaliacaoGestran\\AvaliacaoGestran\\GestranAPI\\GestranAPI.csproj",
+        "projectUniqueName": "C:\\Workspace\\AV\\AvaliacaoGestran\\GestranAPI\\GestranAPI.csproj",
         "projectName": "GestranAPI",
-        "projectPath": "C:\\Workspace\\AvaliacaoGestran\\AvaliacaoGestran\\GestranAPI\\GestranAPI.csproj",
+        "projectPath": "C:\\Workspace\\AV\\AvaliacaoGestran\\GestranAPI\\GestranAPI.csproj",
         "packagesPath": "C:\\Users\\Davez\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\AvaliacaoGestran\\AvaliacaoGestran\\GestranAPI\\obj\\",
+        "outputPath": "C:\\Workspace\\AV\\AvaliacaoGestran\\GestranAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Davez\\AppData\\Roaming\\NuGet\\NuGet.Config"
